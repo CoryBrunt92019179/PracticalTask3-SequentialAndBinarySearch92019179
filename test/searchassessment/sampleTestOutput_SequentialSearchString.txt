@@ -1,0 +1,58 @@
+SEQUENTIAL SEARCH STRING
+Testing main method: 
+== 100 items == 1. found, 2. not found
+Searching for The Professor and His Field Glass in collection of size 99
+Elapsed time = 0 milliseconds
+Search result: not found
+Searching for Viens voir papa! in collection of length 99
+  Elapsed time = 0 milliseconds
+  Found item at index 50
+== 1000 items == found 
+Searching for The Professor and His Field Glass in collection of size 1000
+Item found at index 910: item = The Professor and His Field Glass
+Elapsed time = 1 milliseconds
+Search result: found
+== 10,000 items == found 
+Searching for The Professor and His Field Glass in collection of size 10546
+Item found at index 8909: item = The Professor and His Field Glass
+Elapsed time = 2 milliseconds
+Search result: found
+== 100,000 items == found 
+Searching for The Professor and His Field Glass in collection of size 103418
+Item found at index 87543: item = The Professor and His Field Glass
+Elapsed time = 5 milliseconds
+Search result: found
+== 400,000 items == 1. found and 2. not found
+Searching for The Professor and His Field Glass in collection of size 390111
+Item found at index 323261: item = The Professor and His Field Glass
+Elapsed time = 11 milliseconds
+Search result: found
+Searching for Forrest Gump in collection of size 390111
+Elapsed time = 36 milliseconds
+Search result: not found
+== 2 million items ==  1. found and 2. not found
+Searching for The Professor and His Field Glass in collection of size 2349646
+Item found at index 1963391: item = The Professor and His Field Glass
+Elapsed time = 29 milliseconds
+Search result: found
+Searching for Star Wars 18 in collection of size 2349646
+Elapsed time = 18 milliseconds
+Search result: not found
+Testing method: contains()
+Item found at index 0: item = Hello
+Item found at index 0: item = Hello
+Item found at index 1: item = World
+Item found at index 0: item = Hello
+Item found at index 2: item = Star Wars
+Item found at index 3: item = Thor: Rognarok
+Testing method: indexOf()
+Item found at index 0: item = Hello
+Item found at index 1: item = World
+Item found at index 0: item = A Wrinkle in Time
+Item found at index 1: item = Avengers: Infinity War
+Item found at index 2: item = Star Wars
+Item found at index 3: item = Thor: Rognarok
+Item found at index 3: item = A Wrinkle in Time
+Item found at index 0: item = Avengers: Infinity War
+Item found at index 2: item = Star Wars
+Item found at index 1: item = Thor: Rognarok
