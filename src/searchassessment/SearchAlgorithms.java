@@ -18,7 +18,7 @@ public class SearchAlgorithms {
 
     public static int counter = 0;
 
-    public static ArrayList<String> aL = new ArrayList();
+    public static ArrayList<String> aL = new ArrayList<String>();
 
     public static boolean contains(String term, String[] collection) {
         return (index1(term, collection) != -1);
